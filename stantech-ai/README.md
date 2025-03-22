@@ -10,7 +10,6 @@ This is a simple React application built with Redux Toolkit that fetches data fr
 - View detailed information on a separate page
 - Basic routing with React Router
 - Global state management with Redux Toolkit
-- One test included (React Testing Library + Jest)
 - Clean and modular code structure
 
 ## Tech Stack
