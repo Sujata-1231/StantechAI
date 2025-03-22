@@ -5,11 +5,13 @@ const SearchBar = () => {
   const dispatch = useDispatch();
 
   return (
-    <input
-      type="text"
-      placeholder="Search..."
-      onChange={(e) => dispatch(setSearchTerm(e.target.value))}
-    />
+    <div className="search-box">
+      <input
+        type="text"
+        placeholder="Search..."
+        onChange={(e) => dispatch(setSearchTerm(e.target.value))}
+      />
+    </div>
   );
 };
 

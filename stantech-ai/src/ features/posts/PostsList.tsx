@@ -18,7 +18,7 @@ const PostsList = () => {
   );
 
   return (
-    <div>
+    <div className="container">
       <input
         type="text"
         placeholder="Search posts..."
@@ -27,7 +27,7 @@ const PostsList = () => {
       />
       {status === "loading" && <p>Loading...</p>}
       {status === "failed" && <p>Error: {error}</p>}
-      <ul>
+      <ul className="post-list">
         {filteredPosts.map((post) => (
           <li key={post.id}>
             <Link to={`/posts/${post.id}`}>{post.title}</Link>

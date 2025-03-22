@@ -10,9 +10,11 @@ const PostDetail = () => {
   if (!post) return <p>Post not found</p>;
 
   return (
-    <div>
-      <h2>{post.title}</h2>
-      <p>{post.body}</p>
+    <div className="container">
+      <div className="post-detail-wrapper">
+        <h2>{post.title}</h2>
+        <p>{post.body}</p>
+      </div>
     </div>
   );
 };

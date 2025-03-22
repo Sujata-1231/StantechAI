@@ -19,8 +19,6 @@ This is a simple React application built with Redux Toolkit that fetches data fr
 - Redux Toolkit
 - React Router DOM
 - Axios (for data fetching)
-- React Testing Library + Jest
-- CSS Modules (or your chosen styling method)
 
 ---
 
